@@ -3,11 +3,12 @@
 'use client';
 
 import React, { createContext, useState, useContext, ReactNode, useEffect, useCallback } from 'react';
-import { onAuthStateChanged, signOut, type User as FirebaseUser, updateProfile, deleteUser as deleteFirebaseAuthUser, getRedirectResult, OAuthProvider, getAdditionalUserInfo } from 'firebase/auth';
-import { doc, getDoc, setDoc, serverTimestamp, updateDoc, deleteDoc } from 'firebase/firestore';
+import { onAuthStateChanged, signOut, type User as FirebaseUser, deleteUser as deleteFirebaseAuthUser } from 'firebase/auth';
+import { doc, getDoc, setDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
-import { auth, db } from '@/lib/firebase';
+import { db } from '@/lib/firebase';
+import { getClientAuth } from '@/lib/firebaseClient';
 import { countries as allCountries } from '@/lib/data';
 
 const countryData = [...new Set(allCountries)].map(country => {
@@ -73,6 +74,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   const { toast } = useToast();
 
   const handleAuthSuccess = useCallback(async (firebaseUser: FirebaseUser, isNewUser = false) => {
+      const auth = getClientAuth();
       if (!db || !auth) return;
 
       const userDocRef = doc(db, "users", firebaseUser.uid);
@@ -132,10 +134,18 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
 
 
   useEffect(() => {
+    const auth = getClientAuth();
+    // If we're on the server, auth will be a mock object.
+    // The `onAuthStateChanged` method will not exist on the mock.
+    if (!auth || typeof auth.onAuthStateChanged !== 'function') {
+        setIsLoaded(true);
+        return;
+    }
+
     const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
         if (firebaseUser) {
             // Only fetch user data if the user object isn't already being set by handleAuthSuccess
-            if (!user || user.uid !== firebaseUser.uid) {
+            if ((!user || user.uid !== firebaseUser.uid) && db) {
                  const userDocRef = doc(db, "users", firebaseUser.uid);
                  const userDoc = await getDoc(userDocRef);
 
@@ -167,6 +177,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
 
 
   const handleLogout = useCallback(() => {
+    const auth = getClientAuth();
     if (!auth) return;
     signOut(auth).then(() => {
       setUser(null);
@@ -193,6 +204,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   }, [user]);
   
   const deleteAccount = useCallback(async () => {
+    const auth = getClientAuth();
     const deleteUrl = process.env.NEXT_PUBLIC_DELETE_USER_ACCOUNT_URL;
     if (!deleteUrl) {
       throw new Error('Deletion service URL is not configured.');

@@ -1,0 +1,15 @@
+
+{
+  "name": "shopiggo-cj-link-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.0",
+    "firebase-admin": "^12.5.0",
+    "fast-xml-parser": "^4.5.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=cjLinkSearch --port=8080"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+    "about": {
+        "title": "About Shopiggo",
+        "subtitle": "Simplifying online shopping by unifying access to the world’s leading retailers in a single smart store.",
+        "mission": {
+            "title": "Our Mission",
+            "content": "To simplify online shopping by unifying access to the world’s leading retailers in a single smart store. Shopiggo empowers consumers to save time and money with one-click checkout, consolidated rewards through GoCoins, and a seamless shopping experience—while helping retailers recover lost revenue from fragmented multi-store checkouts."
+        },
+        "vision": {
+            "title": "Our Vision",
+            "content": "To become the go-to universal storefront where every consumer can discover, shop, and save across top retail brands—effortlessly. By bridging the gap between shoppers and retailers with a single payment platform and intelligent rewards, Shopiggo envisions a future where convenience, choice, and efficiency define every shopping journey."
+        },
+        "details": {
+            "title": "Company Details",
+            "location": "Based in Dallas, TX",
+            "incorporation": "Incorporated in Delaware"
+        }
+    }
+}

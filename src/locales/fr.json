@@ -1,0 +1,20 @@
+
+{
+    "about": {
+        "title": "À propos de Shopiggo",
+        "subtitle": "Simplifier les achats en ligne en unifiant l'accès aux plus grands détaillants du monde dans un seul magasin intelligent.",
+        "mission": {
+            "title": "Notre Mission",
+            "content": "Simplifier les achats en ligne en unifiant l'accès aux plus grands détaillants du monde dans un seul magasin intelligent. Shopiggo permet aux consommateurs d'économiser du temps et de l'argent grâce à un paiement en un clic, des récompenses consolidées via les GoCoins et une expérience d'achat fluide, tout en aidant les détaillants à récupérer les revenus perdus à cause des paiements fragmentés sur plusieurs magasins."
+        },
+        "vision": {
+            "title": "Notre Vision",
+            "content": "Devenir la vitrine universelle incontournable où chaque consommateur peut découvrir, acheter et économiser auprès des plus grandes marques de détail, sans effort. En comblant le fossé entre les acheteurs et les détaillants avec une plateforme de paiement unique et des récompenses intelligentes, Shopiggo imagine un avenir où la commodité, le choix et l'efficacité définissent chaque parcours d'achat."
+        },
+        "details": {
+            "title": "Détails de l'entreprise",
+            "location": "Basé à Dallas, TX",
+            "incorporation": "Incorporé au Delaware"
+        }
+    }
+}

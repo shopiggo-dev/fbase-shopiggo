@@ -1,0 +1,1414 @@
+
+[
+  {
+    "retailer": "SHEIN",
+    "countries": [
+      "United States",
+      "Global"
+    ],
+    "categories": [
+      "Apparel",
+      "Fashion",
+      "Accessories",
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "5524344"
+  },
+  {
+    "retailer": "H&M",
+    "countries": [
+      "Global",
+      "United States"
+    ],
+    "categories": [
+      "Apparel",
+      "Fashion",
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4485005"
+  },
+  {
+    "retailer": "Lowe's",
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "categories": [
+      "Home Improvement",
+      "Appliances",
+      "Tools"
+    ],
+    "source": "CJ",
+    "cid": "376372"
+  },
+  {
+    "retailer": "Ashley Furniture HomeStore",
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Global"
+    ],
+    "categories": [
+      "Furniture",
+      "Home Goods"
+    ],
+    "source": "CJ",
+    "cid": "1368294"
+  },
+  {
+    "retailer": "NortonLifeLock",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Computers & Electronics"
+    ],
+    "source": "CJ",
+    "cid": "3645069"
+  },
+  {
+    "retailer": "adidas",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "2333458"
+  },
+  {
+    "retailer": "Samsung",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Computers & Electronics"
+    ],
+    "source": "CJ",
+    "cid": "4401019"
+  },
+  {
+    "retailer": "Ancestry.com",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Business"
+    ],
+    "source": "CJ",
+    "cid": "2621383"
+  },
+  {
+    "retailer": "AT&T",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Telecommunications"
+    ],
+    "source": "CJ",
+    "cid": "5170420"
+  },
+  {
+    "retailer": "Intuit",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Financial Services"
+    ],
+    "source": "CJ",
+    "cid": "2671609"
+  },
+  {
+    "retailer": "Microsoft",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Computers & Electronics"
+    ],
+    "source": "CJ",
+    "cid": "3773177"
+  },
+  {
+    "retailer": "Nike",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "3846394"
+  },
+  {
+    "retailer": "PUMA",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "2431414"
+  },
+  {
+    "retailer": "Verizon Wireless",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Telecommunications"
+    ],
+    "source": "CJ",
+    "cid": "319236"
+  },
+  {
+    "retailer": "Booking.com",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "source": "CJ",
+    "cid": "2816962"
+  },
+  {
+    "retailer": "Shutterfly",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Art/Photo/Music"
+    ],
+    "source": "CJ",
+    "cid": "4210615"
+  },
+  {
+    "retailer": "Vistaprint",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Marketing"
+    ],
+    "source": "CJ",
+    "cid": "1380961"
+  },
+  {
+    "retailer": "Groupon",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Recreation & Leisure"
+    ],
+    "source": "CJ",
+    "cid": "3216848"
+  },
+  {
+    "retailer": "Staples",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Office Supplies"
+    ],
+    "source": "CJ",
+    "cid": "4259341"
+  },
+  {
+    "retailer": "Walgreens",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "100140880"
+  },
+  {
+    "retailer": "GoDaddy",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Marketing"
+    ],
+    "source": "CJ",
+    "cid": "4444960"
+  },
+  {
+    "retailer": "Barnes & Noble",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Books"
+    ],
+    "source": "CJ",
+    "cid": "1357678"
+  },
+  {
+    "retailer": "Carter's",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4521404"
+  },
+  {
+    "retailer": "Tripadvisor",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "source": "CJ",
+    "cid": "2612649"
+  },
+  {
+    "retailer": "Zappos.com",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4204369"
+  },
+  {
+    "retailer": "Forever 21",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4164821"
+  },
+  {
+    "retailer": "J.Crew",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "3425579"
+  },
+  {
+    "retailer": "New Balance",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4745862"
+  },
+  {
+    "retailer": "Under Armour",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Clothing & Accessories"
+    ],
+    "source": "CJ",
+    "cid": "4326578"
+  },
+  {
+    "retailer": "Expedia",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "source": "CJ",
+    "cid": "1"
+  },
+  {
+    "retailer": "Hotels.com",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "source": "CJ",
+    "cid": "10427"
+  },
+  {
+    "retailer": "VRBO",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Travel"
+    ],
+    "source": "CJ",
+    "cid": "4359747"
+  },
+  {
+    "retailer": "AutoZone",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Automotive"
+    ],
+    "source": "CJ",
+    "cid": "3681479"
+  },
+  {
+    "retailer": "Advance Auto Parts",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Automotive"
+    ],
+    "source": "CJ",
+    "cid": "4225013"
+  },
+  {
+    "retailer": "The Home Depot",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Home & Garden"
+    ],
+    "source": "CJ",
+    "cid": "3003460"
+  },
+  {
+    "retailer": "Ace Hardware",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Home & Garden"
+    ],
+    "source": "CJ",
+    "cid": "4223281"
+  },
+  {
+    "retailer": "CVS",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "iHerb",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "4550803"
+  },
+  {
+    "retailer": "GNC",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "3832174"
+  },
+  {
+    "retailer": "PetSmart",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Pet Supplies"
+    ],
+    "source": "CJ",
+    "cid": "2696679"
+  },
+  {
+    "retailer": "Chewy",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Pet Supplies"
+    ],
+    "source": "CJ",
+    "cid": "4955771"
+  },
+  {
+    "retailer": "Petco",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Pet Supplies"
+    ],
+    "source": "CJ",
+    "cid": "4326442"
+  },
+  {
+    "retailer": "1-800-Flowers.com",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Gifts & Flowers"
+    ],
+    "source": "CJ",
+    "cid": "100067332"
+  },
+  {
+    "retailer": "FTD",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Gifts & Flowers"
+    ],
+    "source": "CJ",
+    "cid": "100063991"
+  },
+  {
+    "retailer": "Teleflora",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Gifts & Flowers"
+    ],
+    "source": "CJ",
+    "cid": "100037302"
+  },
+  {
+    "retailer": "Zales",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Jewelry"
+    ],
+    "source": "CJ",
+    "cid": "100000490"
+  },
+  {
+    "retailer": "Jared",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Jewelry"
+    ],
+    "source": "CJ",
+    "cid": "100001859"
+  },
+  {
+    "retailer": "Kay Jewelers",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Jewelry"
+    ],
+    "source": "CJ",
+    "cid": "100002129"
+  },
+  {
+    "retailer": "Blue Nile",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Jewelry"
+    ],
+    "source": "CJ",
+    "cid": "100037351"
+  },
+  {
+    "retailer": "James Allen",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Jewelry"
+    ],
+    "source": "CJ",
+    "cid": "100002018"
+  },
+  {
+    "retailer": "Guitar Center",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Art/Photo/Music"
+    ],
+    "source": "CJ",
+    "cid": "2621748"
+  },
+  {
+    "retailer": "Musician's Friend",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Art/Photo/Music"
+    ],
+    "source": "CJ",
+    "cid": "2696699"
+  },
+  {
+    "retailer": "Sweetwater",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Art/Photo/Music"
+    ],
+    "source": "CJ",
+    "cid": "100000958"
+  },
+  {
+    "retailer": "Office Depot",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Office Supplies"
+    ],
+    "source": "CJ",
+    "cid": "4162180"
+  },
+  {
+    "retailer": "Vista",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Marketing"
+    ],
+    "source": "CJ",
+    "cid": "1380961"
+  },
+  {
+    "retailer": "Constant Contact",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Marketing"
+    ],
+    "source": "CJ",
+    "cid": "2788344"
+  },
+  {
+    "retailer": "Canva",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Marketing"
+    ],
+    "source": "CJ",
+    "cid": "100003004"
+  },
+  {
+    "retailer": "Fiverr",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Business"
+    ],
+    "source": "CJ",
+    "cid": "100004128"
+  },
+  {
+    "retailer": "Upwork",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Business"
+    ],
+    "source": "CJ",
+    "cid": "100002348"
+  },
+  {
+    "retailer": "Coursera",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Education"
+    ],
+    "source": "CJ",
+    "cid": "100004104"
+  },
+  {
+    "retailer": "Udemy",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Education"
+    ],
+    "source": "CJ",
+    "cid": "100004314"
+  },
+  {
+    "retailer": "edX",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Education"
+    ],
+    "source": "CJ",
+    "cid": "100004116"
+  },
+  {
+    "retailer": "EA",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "3645069"
+  },
+  {
+    "retailer": "Activision Blizzard",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "100002164"
+  },
+  {
+    "retailer": "Take-Two Interactive",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "100002204"
+  },
+  {
+    "retailer": "LEGO",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "100001967"
+  },
+  {
+    "retailer": "Mattel",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "100002013"
+  },
+  {
+    "retailer": "Hasbro",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Games & Toys"
+    ],
+    "source": "CJ",
+    "cid": "100001931"
+  },
+  {
+    "retailer": "H&R Block",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Financial Services"
+    ],
+    "source": "CJ",
+    "cid": "2671609"
+  },
+  {
+    "retailer": "TurboTax",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Financial Services"
+    ],
+    "source": "CJ",
+    "cid": "2671609"
+  },
+  {
+    "retailer": "TaxAct",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Financial Services"
+    ],
+    "source": "CJ",
+    "cid": "2671609"
+  },
+  {
+    "retailer": "ESPN",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Sports & Fitness"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "Fanatics",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Sports & Fitness"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "StubHub",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Sports & Fitness"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "Sephora",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "100002164"
+  },
+  {
+    "retailer": "Ulta Beauty",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Health & Beauty"
+    ],
+    "source": "CJ",
+    "cid": "100002164"
+  },
+  {
+    "retailer": "Temu",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Department Store"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "AliExpress",
+    "countries": [
+      "United States"
+    ],
+    "categories": [
+      "Department Store"
+    ],
+    "source": "CJ",
+    "cid": "100003054"
+  },
+  {
+    "retailer": "Amore Mall",
+    "countries": ["South Korea"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "17074415"
+  },
+  {
+    "retailer": "Aosom Canada",
+    "countries": ["Canada"],
+    "categories": ["Furniture"],
+    "source": "CJ",
+    "cid": "100084325"
+  },
+  {
+    "retailer": "Ashimary Hair",
+    "countries": ["China"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "100414603"
+  },
+  {
+    "retailer": "Beckett Media",
+    "countries": ["United States"],
+    "categories": ["Books"],
+    "source": "CJ",
+    "cid": "4432239"
+  },
+  {
+    "retailer": "BenQ",
+    "countries": ["United States"],
+    "categories": ["Computers & Electronics"],
+    "source": "CJ",
+    "cid": "4166779"
+  },
+  {
+    "retailer": "Bluetti Global",
+    "countries": ["United States"],
+    "categories": ["Computers & Electronics"],
+    "source": "CJ",
+    "cid": "100465222"
+  },
+  {
+    "retailer": "Botanic Choice",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "100022300"
+  },
+  {
+    "retailer": "Budget Pet Care",
+    "countries": ["Malta"],
+    "categories": ["Pet Supplies"],
+    "source": "CJ",
+    "cid": "4693952"
+  },
+  {
+    "retailer": "Byrokko World",
+    "countries": ["Czech Republic"],
+    "categories": ["Health & Beauty"],
+    "source": "CJ",
+    "cid": "100523425"
+  },
+  {
+    "retailer": "Canada Pet Care",
+    "countries": ["Mauritius"],
+    "categories": ["Pet Supplies"],
+    "source": "CJ",
+    "cid": "4693956"
+  },
+  {
+    "retailer": "Cashmere Boutique",
+    "countries": ["United States"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "2371900"
+  },
+  {
+    "retailer": "Click & Grow",
+    "countries": ["Estonia"],
+    "categories": ["Home & Garden"],
+    "source": "CJ",
+    "cid": "4549480"
+  },
+  {
+    "retailer": "Coco Moon Hawai'i",
+    "countries": ["United States"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "100192323"
+  },
+  {
+    "retailer": "Contact Lens King",
+    "countries": ["United States"],
+    "categories": ["Health & Beauty"],
+    "source": "CJ",
+    "cid": "2525381"
+  },
+  {
+    "retailer": "Corel Corporation",
+    "countries": ["United States"],
+    "categories": ["Computers & Electronics"],
+    "source": "CJ",
+    "cid": "389240"
+  },
+  {
+    "retailer": "Destira",
+    "countries": ["United States"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "5500661"
+  },
+  {
+    "retailer": "Discount Dance",
+    "countries": ["United States"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "2696664"
+  },
+  {
+    "retailer": "Discount School Supply",
+    "countries": ["United States"],
+    "categories": ["Toys & Games"],
+    "source": "CJ",
+    "cid": "2698777"
+  },
+  {
+    "retailer": "Dreo",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100482594"
+  },
+  {
+    "retailer": "e-McKlein.pl",
+    "countries": ["Poland"],
+    "categories": ["Accessories"],
+    "source": "CJ",
+    "cid": "100813876"
+  },
+  {
+    "retailer": "eCosmetics.com",
+    "countries": ["United States"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "2617611"
+  },
+  {
+    "retailer": "Eden",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "100569720"
+  },
+  {
+    "retailer": "EdenFantasys.com",
+    "countries": ["United States"],
+    "categories": ["Health & Beauty"],
+    "source": "CJ",
+    "cid": "1517482"
+  },
+  {
+    "retailer": "Fabletics Europe",
+    "countries": ["Germany"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "4909701"
+  },
+  {
+    "retailer": "FragranceShop.com",
+    "countries": ["United States"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "100010930"
+  },
+  {
+    "retailer": "GeorgiaBoot.com",
+    "countries": ["United States"],
+    "categories": ["Footwear"],
+    "source": "CJ",
+    "cid": "3585933"
+  },
+  {
+    "retailer": "Good Stone",
+    "countries": ["United States"],
+    "categories": ["Jewelry"],
+    "source": "CJ",
+    "cid": "100473062"
+  },
+  {
+    "retailer": "HealthLabs.com",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "4899539"
+  },
+  {
+    "retailer": "HealthyMale",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "100146036"
+  },
+  {
+    "retailer": "Heivy",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "100311269"
+  },
+  {
+    "retailer": "Horow",
+    "countries": ["Hong Kong"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100508596"
+  },
+  {
+    "retailer": "Ilks.eu",
+    "countries": ["Czech Republic"],
+    "categories": ["Jewelry"],
+    "source": "CJ",
+    "cid": "100684126"
+  },
+  {
+    "retailer": "Instant Brands UK",
+    "countries": ["United Kingdom"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100316689"
+  },
+  {
+    "retailer": "John Boos & Co.",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100067645"
+  },
+  {
+    "retailer": "JustFlowers.com",
+    "countries": ["United States"],
+    "categories": ["Gifts & Flowers"],
+    "source": "CJ",
+    "cid": "848834"
+  },
+  {
+    "retailer": "Karaca EU",
+    "countries": ["Germany"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100582234"
+  },
+  {
+    "retailer": "KXKshop",
+    "countries": ["Hong Kong"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "100787729"
+  },
+  {
+    "retailer": "Lighting New York",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "3686895"
+  },
+  {
+    "retailer": "Magnifique",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100910103"
+  },
+  {
+    "retailer": "Magzter",
+    "countries": ["United States"],
+    "categories": ["Books"],
+    "source": "CJ",
+    "cid": "4491763"
+  },
+  {
+    "retailer": "Modlily.com",
+    "countries": ["China"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "4951493"
+  },
+  {
+    "retailer": "Mondly by Pearson",
+    "countries": ["Romania"],
+    "categories": ["Education"],
+    "source": "CJ",
+    "cid": "5505700"
+  },
+  {
+    "retailer": "Nature's Body",
+    "countries": ["United Arab Emirates"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "100965319"
+  },
+  {
+    "retailer": "NeoGenesis",
+    "countries": ["United States"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "5445694"
+  },
+  {
+    "retailer": "OM SYSTEM",
+    "countries": ["United States"],
+    "categories": ["Computers & Electronics"],
+    "source": "CJ",
+    "cid": "100486333"
+  },
+  {
+    "retailer": "OnBuy EU",
+    "countries": ["Ireland"],
+    "categories": ["Department Store"],
+    "source": "CJ",
+    "cid": "100412871"
+  },
+  {
+    "retailer": "OnBuy.com",
+    "countries": ["United Kingdom"],
+    "categories": ["Department Store"],
+    "source": "CJ",
+    "cid": "5562002"
+  },
+  {
+    "retailer": "Onebioshop.com",
+    "countries": ["Italy"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "100465352"
+  },
+  {
+    "retailer": "organicbabyfood24",
+    "countries": ["Germany"],
+    "categories": ["Groceries"],
+    "source": "CJ",
+    "cid": "100067341"
+  },
+  {
+    "retailer": "PandaHall",
+    "countries": ["China"],
+    "categories": ["Jewelry"],
+    "source": "CJ",
+    "cid": "4432095"
+  },
+  {
+    "retailer": "Papique",
+    "countries": ["Italy"],
+    "categories": ["Beauty"],
+    "source": "CJ",
+    "cid": "100908865"
+  },
+  {
+    "retailer": "PartnerBoost - Amazon Marketplace",
+    "countries": ["United States"],
+    "categories": ["Department Store"],
+    "source": "CJ",
+    "cid": "100049494"
+  },
+  {
+    "retailer": "PeachSkinSheets",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "4433221"
+  },
+  {
+    "retailer": "Planetbox",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "4169585"
+  },
+  {
+    "retailer": "PRNVision.com",
+    "countries": ["United States"],
+    "categories": ["Health & Beauty"],
+    "source": "CJ",
+    "cid": "100140228"
+  },
+  {
+    "retailer": "RockyBoots.com",
+    "countries": ["United States"],
+    "categories": ["Footwear"],
+    "source": "CJ",
+    "cid": "3585932"
+  },
+  {
+    "retailer": "Shelving Inc.",
+    "countries": ["United States"],
+    "categories": ["Furniture"],
+    "source": "CJ",
+    "cid": "4203177"
+  },
+  {
+    "retailer": "SINGER Sewing Machines",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100000407"
+  },
+  {
+    "retailer": "Skutchi Designs",
+    "countries": ["United States"],
+    "categories": ["Furniture"],
+    "source": "CJ",
+    "cid": "100141691"
+  },
+  {
+    "retailer": "Sleep & Beyond",
+    "countries": ["United States"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "4146146"
+  },
+  {
+    "retailer": "SwitchBot",
+    "countries": ["Hong Kong"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100262744"
+  },
+  {
+    "retailer": "T3 Endurance",
+    "countries": ["United States"],
+    "categories": ["Footwear"],
+    "source": "CJ",
+    "cid": "100962388"
+  },
+  {
+    "retailer": "Testclear.com",
+    "countries": ["United States"],
+    "categories": ["Health & Wellness"],
+    "source": "CJ",
+    "cid": "2620977"
+  },
+  {
+    "retailer": "The Tight Spot",
+    "countries": ["Jersey"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "4064379"
+  },
+  {
+    "retailer": "Trampoline Parts and Supply",
+    "countries": ["United States"],
+    "categories": ["Sporting Goods"],
+    "source": "CJ",
+    "cid": "3956494"
+  },
+  {
+    "retailer": "Travelpro EU",
+    "countries": ["United States"],
+    "categories": ["Travel"],
+    "source": "CJ",
+    "cid": "100342939"
+  },
+  {
+    "retailer": "Trodo EU",
+    "countries": ["Germany"],
+    "categories": ["Automotive"],
+    "source": "CJ",
+    "cid": "100523423"
+  },
+  {
+    "retailer": "UNice",
+    "countries": ["China"],
+    "categories": ["Health & Beauty"],
+    "source": "CJ",
+    "cid": "5533439"
+  },
+  {
+    "retailer": "VAIO US",
+    "countries": ["United States"],
+    "categories": ["Computers & Electronics"],
+    "source": "CJ",
+    "cid": "100101901"
+  },
+  {
+    "retailer": "Vevor",
+    "countries": ["China"],
+    "categories": ["Home Goods"],
+    "source": "CJ",
+    "cid": "100067664"
+  },
+  {
+    "retailer": "Vevor FR",
+    "countries": ["China"],
+    "categories": ["Home & Garden"],
+    "source": "CJ",
+    "cid": "100508535"
+  },
+  {
+    "retailer": "VY Jewelry",
+    "countries": ["United States"],
+    "categories": ["Jewelry"],
+    "source": "CJ",
+    "cid": "100100654"
+  },
+  {
+    "retailer": "Warsawsneakerstore.com",
+    "countries": ["Poland"],
+    "categories": ["Department Store"],
+    "source": "CJ",
+    "cid": "100262174"
+  },
+  {
+    "retailer": "Weatherman Umbrella",
+    "countries": ["United States"],
+    "categories": ["Sporting Goods"],
+    "source": "CJ",
+    "cid": "5537549"
+  },
+  {
+    "retailer": "Wide Fit Shoes US",
+    "countries": ["United Kingdom"],
+    "categories": ["Footwear"],
+    "source": "CJ",
+    "cid": "100135327"
+  },
+  {
+    "retailer": "Wowangel",
+    "countries": ["China"],
+    "categories": ["Apparel"],
+    "source": "CJ",
+    "cid": "100537446"
+  },
+  {
+    "retailer": "zChocolat.com",
+    "countries": ["United States"],
+    "categories": ["Gifts & Flowers"],
+    "source": "CJ",
+    "cid": "1000188"
+  }
+]

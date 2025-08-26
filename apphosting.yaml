@@ -1,0 +1,34 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# Version: 3 - Forcing a new backend creation.
+# https://firebase.google.com/docs/app-hosting/configure
+
+# Specifies the build and run settings for the backend.
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 2
+  # Restrict access to internal traffic and Cloud Load Balancing
+  ingress: internal-and-cloud-load-balancing
+  # Set a 10-minute timeout for long-running jobs
+  timeoutSeconds: 600
+  # Set concurrency to 1 for single-threaded, resource-intensive a-jobs
+  concurrency: 1
+
+# Defines the secrets that need to be provisioned for the backend.
+# These are stored securely in Google SecretManager.
+requiredSecrets:
+  # Firebase-related secrets for connecting to your Firebase project.
+  - secret: NEXT_PUBLIC_FIREBASE_API_KEY
+  - secret: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+  - secret: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+  - secret: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+  - secret: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+  - secret: NEXT_PUBLIC_FIREBASE_APP_ID
+  - secret: SHEIN_API_KEY
+  - secret: SHEIN_API_SECRET
+  - secret: GEMINI_API_KEY
+  - secret: ETSY_API_KEY
+  - secret: ETSY_SHARED_SECRET
+  - secret: APIFY_TOKEN
+  - secret: CJ_PERSONAL_ACCESS_TOKEN
+  - secret: CJ_PID

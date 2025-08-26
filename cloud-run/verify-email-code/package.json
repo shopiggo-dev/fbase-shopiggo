@@ -1,0 +1,14 @@
+
+{
+  "name": "shopiggo-verify-email-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.0",
+    "firebase-admin": "^12.5.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=verifyEmailCode --port=8080"
+  }
+}

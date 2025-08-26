@@ -8,8 +8,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Loader2, Phone, ShieldCheck, ArrowLeft } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
-import { auth } from "@/lib/firebase"
-import { signInWithEmailAndPassword, GoogleAuthProvider, OAuthProvider, signInWithPopup, getAdditionalUserInfo, updateProfile, sendPasswordResetEmail, type User as FirebaseUser, RecaptchaVerifier, PhoneAuthProvider, multiFactor, PhoneMultiFactorGenerator, type AuthError, setPersistence, browserLocalPersistence, signInWithRedirect } from "firebase/auth"
+import { getClientAuth } from "@/lib/firebaseClient"
+import { signInWithEmailAndPassword, GoogleAuthProvider, OAuthProvider, signInWithPopup, getAdditionalUserInfo, sendPasswordResetEmail, type AuthError, setPersistence, browserLocalPersistence, signInWithRedirect, PhoneMultiFactorGenerator } from "firebase/auth"
 import { useUser } from "@/hooks/use-user"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
@@ -30,7 +30,7 @@ function GoogleIcon(props: React.SVGProps<SVGSVGElement>) {
 
 function AppleIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
-        <svg className="mr-2 h-4 w-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" {...props}>
+        <svg className="mr-2 h-4 w-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 384.0 512.0" {...props}>
             <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C39.2 141.1 0 183.2 0 241.2c0 61.6 31.5 117.4 58.8 152.4 14.9 19.3 32.8 39.2 55.8 39.2 25.2 0 43.3-17.7 75.8-17.7 31.8 0 48.3 17.7 75.8 17.7 21.2 0 38.2-17.2 53.7-35.4 16.5-19.8 25.2-40.3 25.2-61.4zM190.7 109.1c12.7-16.3 29.3-31.8 48.5-41.7-16.3-16.5-35.2-29.1-55.8-35.4-20.5-6.3-42.8-5.3-63.6 2.8-21.5 8.5-40.2 22.1-55.8 38.6-12.3 13.3-24.2 29.2-34.8 45.9-2.8-2.6-5.7-5.2-8.5-7.8-1.4-1.3-2.8-2.6-4.2-3.9-3.4-3.2-6.8-6.4-10.2-9.6-3.4-3.2-6.8-6.4-10.2-9.6-3.4-3.2-6.8-6.4-10.2-9.6-3.4-3.2-6.8-6.4-10.2-9.6-3.4-3.2-6.8-6.4-10.2-9.6C190.7 109.1 190.7 109.1 190.7 109.1z"></path>
         </svg>
     )
@@ -115,8 +115,9 @@ export function UserAuthForm({ className, isSignUp = false, ...props }: UserAuth
         }
         
         setIsLoading(true);
+        const auth = getClientAuth();
         try {
-            if (!auth || !auth.app) throw new Error("Auth service is not available.");
+            if (!auth) throw new Error("Auth service is not available.");
             await sendPasswordResetEmail(auth, email);
             toast({
                 title: "Password Reset Email Sent",
@@ -174,8 +175,9 @@ export function UserAuthForm({ className, isSignUp = false, ...props }: UserAuth
             toast({ title: "Error", description: "Please enter email and password.", variant: "destructive" });
             return;
         }
+        const auth = getClientAuth();
         try {
-            if (!auth || !auth.app) throw new Error("Auth service is not available.");
+            if (!auth) throw new Error("Auth service is not available.");
             const userCredential = await signInWithEmailAndPassword(auth, email, password);
             
             await handleAuthSuccess(userCredential.user);
@@ -186,10 +188,19 @@ export function UserAuthForm({ className, isSignUp = false, ...props }: UserAuth
     }
 
     async function handleGoogleSignIn() {
+        const auth = getClientAuth();
+        if (!auth) {
+             toast({
+                title: "Service Unavailable",
+                description: "The authentication service is not available right now. Please try again later.",
+                variant: "destructive",
+            });
+            return;
+        }
+
         setIsGoogleLoading(true);
         const provider = new GoogleAuthProvider();
         try {
-            if (!auth || !auth.app) throw new Error("Auth service is not available.");
             await setPersistence(auth, browserLocalPersistence);
             const result = await signInWithPopup(auth, provider);
             const userInfo = getAdditionalUserInfo(result);
@@ -211,13 +222,22 @@ export function UserAuthForm({ className, isSignUp = false, ...props }: UserAuth
     }
 
     async function handleAppleSignIn() {
+        const auth = getClientAuth();
+         if (!auth) {
+             toast({
+                title: "Service Unavailable",
+                description: "The authentication service is not available right now. Please try again later.",
+                variant: "destructive",
+            });
+            return;
+        }
+
         setIsAppleLoading(true);
         const provider = new OAuthProvider('apple.com');
         provider.addScope('email');
         provider.addScope('name');
     
         try {
-            if (!auth) throw new Error("Auth service is not available.");
             await signInWithRedirect(auth, provider);
         } catch (error: any)
 {
@@ -388,3 +408,4 @@ export function UserAuthForm({ className, isSignUp = false, ...props }: UserAuth
         </div>
     )
 }
+
